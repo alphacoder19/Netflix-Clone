@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #141414;
+}
+
+.logo h1 {
+    font-weight: 600;
+    opacity: 1;
+    font-size: 40px;
+    color: #e50914;
+
+}
+
+
+
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.profile button {
+    width: 80px;
+    height: 35px;
+    padding: 5px;
+    background-color: red;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    border-radius: 5px;
+}
+
+.hero {
+    background-image: url('back2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
+    color: #fff;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content {
+
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.email-form {
+    display: flex;
+    gap: 10px;
+}
+
+.email-form input {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.email-form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.enjoy {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+}
+
+video {
+    width: 500px;
+    height: 500px;
+}
+
+.enjoy .two {
+    margin-left: 150px;
+}
+
+.one h1 #text {
+    font-size: 90px;
+}
+
+.one h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.down-show {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.show-text h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.show-text p {
+    font-size: 25px;
+}
+
+.img-show img {
+    width: 500px;
+    height: 350px;
+
+}
+/* Anime Section */
+#anime{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    background-color: black;
+
+}
+#anime .anime-text {
+    margin:150px 100px
+}
+#anime .anime-text h1{
+    color: white;
+    font-size: 25px;
+}
+#anime .anime-text h2{
+    color: red;
+    font-size: 34px;
+
+}
+.slider-container {
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    flex: 0 0 100%;
+    height: 300px;
+}
+
+.slide video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+/* Children Account Section */
+.child-sec{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.child-text{
+    width: 550px;
+}
+.child-text h1{
+    font-size: 50px;
+    font-weight: 780;
+}
+.child-text p{
+    font-size: 25px;
+}
+
+
+.movie-section {
+    padding: 20px;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.movie-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.movie-list {
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+    padding: 10px 0;
+}
+
+.movie {
+    min-width: 200px;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.movie img:hover {
+    transform: scale(1.05);
+}
+/* question Section */
+
+.question{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: black;
+    align-items: center;
+
+}
+.question h1{
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.question .para{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+    margin-top: 40px;
+    width: 80%;
+  
+  
+}
+.question .para  #same{
+    width: 100%;
+    height: 80px;
+    padding-top: 40px;
+   
+    margin: 10px;
+    font-size: 25px;
+    padding-left: 30px;
+    background-color:#383737;
+    
+}
+.form{
+    margin-top: 40px;
+}
+.form p{
+    font-size: 20px;
+}
+input{
+    width: 360px;
+    padding: 15.6px;
+    margin-top: 15px;
+    border-radius: 5px ;
+    font-size: 17px;
+    background-color: #131212;
+    font-weight: 550;
+    color: white;
+}
+#last{
+    width: 150px;height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    margin-top: 15px;
+    border-radius: 5px ;
+}
+
+.footer {
+    background-color: #000;
+    color: #757575;
+    padding: 40px 0;
+    margin-top: 10px;
+}
+
+.footer .inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    color: #757575;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #b3b3b3; /* Light grey hover color */
+}
